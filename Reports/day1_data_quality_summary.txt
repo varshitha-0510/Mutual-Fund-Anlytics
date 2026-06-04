@@ -1,0 +1,7 @@
+Data Quality Summary
+
+1. Loaded all 10 datasets successfully.
+2. No duplicate scheme codes in fund_master.
+3. Missing values found in X columns.
+4. NAV history contains 46k+ records.
+5. Data types need date conversion in NAV dataset.
