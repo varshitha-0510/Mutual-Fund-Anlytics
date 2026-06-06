@@ -1,4 +1,4 @@
--- Dimension Table: Fund
+
 
 CREATE TABLE dim_fund (
     amfi_code INTEGER PRIMARY KEY,
@@ -9,7 +9,7 @@ CREATE TABLE dim_fund (
     risk_category TEXT
 );
 
--- Dimension Table: Date
+
 
 CREATE TABLE dim_date (
     date_key INTEGER PRIMARY KEY,
@@ -19,7 +19,7 @@ CREATE TABLE dim_date (
     quarter INTEGER
 );
 
--- Fact Table: NAV
+
 
 CREATE TABLE fact_nav (
     nav_id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -29,7 +29,7 @@ CREATE TABLE fact_nav (
     FOREIGN KEY (amfi_code) REFERENCES dim_fund(amfi_code)
 );
 
--- Fact Table: Transactions
+
 
 CREATE TABLE fact_transactions (
     txn_id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -41,7 +41,6 @@ CREATE TABLE fact_transactions (
     FOREIGN KEY (amfi_code) REFERENCES dim_fund(amfi_code)
 );
 
--- Fact Table: Performance
 
 CREATE TABLE fact_performance (
     perf_id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -56,7 +55,7 @@ CREATE TABLE fact_performance (
     FOREIGN KEY (amfi_code) REFERENCES dim_fund(amfi_code)
 );
 
--- Fact Table: AUM
+
 
 CREATE TABLE fact_aum (
     aum_id INTEGER PRIMARY KEY AUTOINCREMENT,
