@@ -1,6 +1,6 @@
-scheme_name,return_3yr_pct,benchmark_3yr_pct,tracking_error
-SBI Small Cap Fund - Regular Plan - Growth,23.39,22.16,1.2300000000000004
-SBI Small Cap Fund - Direct Plan - Growth,23.14,22.01,1.129999999999999
-ABSL Small Cap Fund - Regular - Growth,22.38,20.54,1.8399999999999999
-Axis Small Cap Fund - Regular - Growth,20.98,20.47,0.5100000000000016
-Nippon India Small Cap Fund - Regular - Growth,20.15,19.35,0.7999999999999972
+amfi_code,scheme_name,fund_house,category,plan,return_1yr_pct,return_3yr_pct,return_5yr_pct,benchmark_3yr_pct,alpha,beta,sharpe_ratio,sortino_ratio,std_dev_ann_pct,max_drawdown_pct,aum_crore,expense_ratio_pct,morningstar_rating,risk_grade,tracking_error
+119598,SBI Small Cap Fund - Regular Plan - Growth,SBI Mutual Fund,Small Cap,Regular,24.56,23.39,20.67,22.16,1.23,0.89,0.94,1.35,25.0,-13.35,19259,1.43,5,Very High,1.2300000000000004
+119599,SBI Small Cap Fund - Direct Plan - Growth,SBI Mutual Fund,Small Cap,Direct,20.59,23.14,21.82,22.01,1.13,1.04,0.93,1.67,25.0,-24.78,36061,0.72,4,Very High,1.129999999999999
+101207,ABSL Small Cap Fund - Regular - Growth,Aditya Birla Sun Life MF,Small Cap,Regular,24.93,22.38,23.8,20.54,1.84,0.97,0.9,1.47,25.0,-23.61,41613,1.53,5,Very High,1.8399999999999999
+119095,Axis Small Cap Fund - Regular - Growth,Axis Mutual Fund,Small Cap,Regular,21.97,20.98,22.62,20.47,0.51,1.0,0.84,1.4,25.0,-14.45,21545,1.38,4,Very High,0.5100000000000016
+118634,Nippon India Small Cap Fund - Regular - Growth,Nippon India MF,Small Cap,Regular,21.3,20.15,21.88,19.35,0.8,1.03,0.81,1.14,25.0,-30.87,43630,1.53,4,Very High,0.7999999999999972
